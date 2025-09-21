@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Brian Nzuki — Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+  <meta name="theme-color" content="#8a2be6" />
+  <meta name="msapplication-TileColor" content="#8a2be6" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header glass">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="name-gradient">Brian Nzuki</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button id="hamburger" class="hamburger" aria-label="menu">☰</button>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-nav" class="mobile-nav">
+      <div class="mobile-nav-content">
+        <div class="mobile-nav-header">
+          <span class="name-gradient">Brian Nzuki</span>
+          <button id="close-mobile-nav" class="close-mobile-nav" aria-label="close menu">×</button>
+        </div>
+        <nav class="mobile-nav-links">
+          <a href="index.html" class="mobile-nav-link active">Home</a>
+          <a href="about.html" class="mobile-nav-link">About</a>
+          <a href="skills.html" class="mobile-nav-link">Skills</a>
+          <a href="projects.html" class="mobile-nav-link">Projects</a>
+          <a href="contact.html" class="mobile-nav-link">Contact</a>
+        </nav>
+        <div class="mobile-nav-footer">
+          <a href="mailto:bnzuki4@gmail.com" class="mobile-nav-contact">bnzuki4@gmail.com</a>
+          <a href="tel:+254713808022" class="mobile-nav-contact">+254 713 808 022</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero full" id="home">
+      <div class="container">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-animate>
+          <img class="profile" src="images/profile.png" alt="Brian Nzuki — profile" width="128" height="128" />
+          <h1>Hi, I'm <span class="name-gradient">Brian Nzuki</span></h1>
+          <p class="subtitle">Fullstack Software Engineer | Building Scalable Web Solutions with Passion &amp;
+            Innovation
+          </p>
+          <div class="cta-group">
+            <a class="btn primary" href="about.html">Learn More About Me</a>
+            <a class="btn outline" href="projects.html">View My Work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" data-animate>
+      <div class="container stats-grid">
+        <div class="stat card">
+          <div class="stat-icon">&lt;/&gt;</div>
+          <h3>3+ Languages</h3>
+          <p>JavaScript • Python • TypeScript</p>
+        </div>
+        <div class="stat card">
+          <div class="stat-icon">🗄️</div>
+          <h3>MERN Stack</h3>
+          <p>MongoDB • Express • React • Node.js</p>
+        </div>
+        <div class="stat card">
+          <div class="stat-icon">🌐</div>
+          <h3>5+ Projects</h3>
+          <p>Web apps & AI solutions</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" data-animate>
+      <div class="container final-cta-inner">
+        <h2>Ready to Build Something Amazing?</h2>
+        <a class="btn primary" href="contact.html">Get In Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-footer"><span class="name-gradient">Brian Nzuki</span></div>
+        <p class="muted">20 • Fullstack Software Engineer • Kenya</p>
+      </div>
+      <div class="quick-links">
+        <h4>Quick Links</h4>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="contact-col">
+        <h4>Contact</h4>
+        <p>bnzuki4@gmail.com</p>
+        <p>+254 713 808 022</p>
+      </div>
+      <div class="social-col">
+        <h4>Social</h4>
+        <a href="https://github.com/psychokeed" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/brian-david-5035b231b/" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:bnzuki4@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> Brian Nzuki</div>
+  </footer>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
